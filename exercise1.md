@@ -108,8 +108,8 @@ Combine your knowledge of **U-Boot/Kernel development** with hardware measuremen
 Starting with the i.MX8MQ EVB allows you to bridge the gap between **software logic** and **physical signals**. This "Full-Stack" visibility—knowing exactly what is happening on the wires while your kernel is booting—is what defines a high-level embedded software engineer.
 
 If the oscilloscope in your lab has a high bandwidth (e.g., 200MHz or higher), I highly recommend comparing the actual waveforms you capture with the **Timing Diagrams** found in the i.MX8MQ Reference Manual.
----
 
+---
 
 - I2C Speed Verification: Change the baudrate in config.txt and use an oscilloscope to measure if the SCL (Clock) frequency actually changes.
 - Kernel Driver Debugging: Capture the initialization signals generated when a Linux kernel driver for a sensor is loaded.
