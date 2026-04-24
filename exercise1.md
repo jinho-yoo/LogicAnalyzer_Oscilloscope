@@ -59,10 +59,12 @@ void loop() {
 
 Once you have mastered the basics with Arduino, move on to the Raspberry Pi. At this stage, you can perform more advanced debugging:
 
----
----
-Certainly! Since you are already working with **i.MX8M series kernels and U-Boot**, using the **i.MX8MQ EVB (Evaluation Board)** for these experiments is an excellent idea. It moves you from "hobbyist" setups to "professional-grade" embedded systems debugging.
+- I2C Speed Verification: Change the baudrate in config.txt and use an oscilloscope to measure if the SCL (Clock) frequency actually changes.
+- Kernel Driver Debugging: Capture the initialization signals generated when a Linux kernel driver for a sensor is loaded.
 
+**Summary:** If you are heading to the lab right now, grab an **Arduino and a logic analyzer**. It is the fastest and most reliable way to understand the principles of digital signals. Do you have an Arduino and a sensor ready for testing?
+
+---
 ---
 
 ## 1. Practical Exercises with i.MX8MQ EVB
@@ -111,7 +113,4 @@ If the oscilloscope in your lab has a high bandwidth (e.g., 200MHz or higher), I
 
 ---
 
-- I2C Speed Verification: Change the baudrate in config.txt and use an oscilloscope to measure if the SCL (Clock) frequency actually changes.
-- Kernel Driver Debugging: Capture the initialization signals generated when a Linux kernel driver for a sensor is loaded.
 
-**Summary:** If you are heading to the lab right now, grab an **Arduino and a logic analyzer**. It is the fastest and most reliable way to understand the principles of digital signals. Do you have an Arduino and a sensor ready for testing?
